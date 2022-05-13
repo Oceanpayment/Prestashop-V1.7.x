@@ -1,16 +1,54 @@
-<h2>概述</h4>
-Oceanpayment支持主流的开源程序Magento，WordPress，Opencart，Prestashop，Zen Cart等支付插件，安装便捷，节约开发成本和资源。
-
-<h2>Prestashop支付插件，只支持V1.7版本</h2>
-<h4>介绍</h4>
-PrestaShop是一款针对web2.0设计的全功能、跨平台的免费开源电子商务解决方案，发展迅速，全球已超过四万家网店采用Prestashop进行部署。Prestashop基于Smarty引擎编程设计，模块化设计，扩展性强，能轻易实现多种语言，多种货币浏览交易。Prestashop是目前为止，操作最简单，最人性化，用户体验最佳的电子商务解决方案之一。
+<h2>Overview</h4>
+Oceanpayment supports mainstream open-source payment plug-ins, such as Magento, WordPress, OpenCart, PrestaShop, and Zen Cart, which are easy to install and save development costs and resources. 
+<h2>Prestashop plug-in</h2>
+<h4>Introduce</h4>
+PrestaShop is a full-featured, cross-platform, free and open source e-commerce solution designed for web2.0. It has developed rapidly, and more than 40,000 online stores around the world have adopted Prestashop for deployment. Prestashop is based on Smarty engine programming design, modular design, strong scalability, can easily realize multi-language, multi-currency browsing transactions. Prestashop is by far, one of the easiest, most user-friendly, and best user experience e-commerce solutions.
 <ul>
-  <li>信用卡支付和本地支付插件支持内嵌功能。</li>
-  <li>支持程序版本V1.7。</li>
+  <li>Supports Card Payments and Alternative Payments embedded plug-ins.</li>
+  <li>Support program version V1.7.</li>
 </ul>
-<h4>安装</h4>
+<h4>Plug-in installation</h4>
 <ol>
-    <li>将下载的文件覆盖到prestashop网站根目录。</li>
-    <li>启用支付插件。</li>
-    <li>配置Oceanpayment账户信息。</li>
+    <li>Overwrite the downloaded file to the root directory of the prestashop website.</li>
+    <li>Enable payment plugin.</li>
+    <li>Configure Oceanpayment account information.</li>
 </ol>
+<table>
+  <tr>
+    <td>Account</td>
+    <td>Provide by Oceanpayment technical support.</td>
+  </tr>
+  <tr>
+    <td>Terminal</td>
+    <td>Provide by Oceanpayment technical support.</td>
+  </tr>
+  <tr>
+    <td>SecureCode</td>
+    <td>Provide by Oceanpayment technical support.</td>
+  </tr>
+  <tr>
+    <td>Transaction URL</td>
+    <td>Production environment：https://secure.oceanpayment.com/gateway/service/pay<br>
+      Sandbox environment：https://test-secure.oceanpayment.com/gateway/service/pay</td>
+  </tr>
+  <tr>
+    <td>Pay Mode</td>
+    <td>Redirect:Redirect to open payment page<br>Iframe:iframe payment page.</td>
+  </tr>
+  <tr>
+    <td>Unpaid Status</td>
+    <td>Awaiting Payment</td>
+  </tr>
+  <tr>
+    <td>Success Status</td>
+    <td>Payment accepted</td>
+  </tr>
+  <tr>
+    <td>Fail Status</td>
+    <td>Failed</td>
+  </tr>
+  <tr>
+    <td>Pending Status</td>
+    <td>Pending</td>
+  </tr>
+</table>
